@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Indicadores clave para la gestión energética según normativa y diagnóstico'

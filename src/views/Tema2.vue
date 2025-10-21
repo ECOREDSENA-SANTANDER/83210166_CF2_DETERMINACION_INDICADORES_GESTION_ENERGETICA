@@ -5,7 +5,21 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Establecimiento de Líneas Base Energéticas (LBE) y variables de seguimiento
+    
+    
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2 2.1 Metodologías para el cálculo de la LBE
+
+
+
+
+
+
+
+
+
 
 </template>
 
