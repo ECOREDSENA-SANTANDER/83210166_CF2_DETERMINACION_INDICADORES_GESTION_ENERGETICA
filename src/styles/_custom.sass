@@ -53,6 +53,10 @@ figcaption
   background-image: url("../assets/curso/portada/portada.png") !important
 
 
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black !important
+
+
 .img-t
   width: auto
   height: auto 
@@ -60,6 +64,12 @@ figcaption
   display: block
   margin: auto
 
+
+.titulo-sexto.color-secundario 
+    margin-bottom: 24px
+    border-left: 10px solid
+    padding: 5px 0 5px 8px
+    border-left-color: #CCDD63 !important
 
 .titulo-segundo:after 
   content: ''
@@ -91,3 +101,181 @@ figcaption
 
 
 
+//TEMA1
+
+.bg1
+  background-color: #EFFAF4
+
+
+.bg2
+  background-color: #E0F4FF
+
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #FABCA7
+.linea-tiempo-d .tarjeta 
+    border-radius: 5px
+.tarjeta--gris  
+    background-color: #E0F4FF
+.linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color:#FABCA7
+    color: black !important
+.linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item__number 
+    background-color: #E0F4FF
+
+
+.titulo
+  background-color: #38B449
+  border-radius: 50px 
+  width: fit-content
+  padding: 8px 20px 8px 75px
+  position: relative
+  display: inline-flex
+  align-items: center
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    padding: 8px 20px 8px 65px
+.titulo img
+  width: 63px
+  height: 63px
+  position: absolute
+  top: 35%
+  left: -6px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+  @media only screen and (max-width: 767px)
+    width: 50px
+    height: 50px
+    left: 5px
+    top: 45%
+
+
+.titulo-linea
+  position: relative
+  padding-bottom: 13px
+  width: fit-content  
+.titulo-linea::after
+  content: ''
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%  
+  height: 8px
+  background-color: #AFE1B6 
+  border-radius: 8px
+
+
+.bg3
+  background-color: #FEEFE9
+
+
+.fa-bolt
+  display: inline-block
+  transform: rotate(85deg)
+  color: #38B449
+  transform-origin: center 
+  width: 1em  
+  height: 1em 
+
+
+.bg4
+  background-color: #E0F4FF
+  border-radius: 10px
+
+
+.bg5
+  background-color: #FABCA7
+  border-radius: 20px 0px 0px 20px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+.bg6
+  background-color: #FCDED3
+  border-radius: 0px 20px 20px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+
+
+.bg7
+  background-color: #E6F0EB
+
+
+.bg8
+  background-color: #E6F0EB
+  border-radius: 20px
+
+
+.tabs-b__tab 
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px
+    background-color: #E8F5F5  
+    border-right: 4px solid #CCCCCC
+    border-top: 4px solid transparent  
+    cursor: pointer
+    transition: all 0.3s ease
+    border-bottom: none
+    img
+      filter: none
+      transition: filter 0.3s ease
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+    border-top: 6px solid #38B449 !important  
+    background-color: #FFFFFF  
+    border-right: 4px solid #CCCCCC
+    border-bottom: none
+    img
+      filter: invert(15%) sepia(99%) saturate(7426%) hue-rotate(5deg) brightness(95%) contrast(118%)
+
+
+.ta2
+  .tabs-b__tab 
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px
+    background-color: #FEEFE9
+    border-right: 4px solid #CCCCCC
+    border-top: 4px solid transparent  
+    cursor: pointer
+    transition: all 0.3s ease
+    border-bottom: none
+    img
+      filter: none
+      transition: filter 0.3s ease
+    &:hover:not(.tabs-b__tab--active)
+      background-color: #E8E8E8
+
+
+.tarjeta.color-primario.des
+  background: url('../assets/curso/tema1/38.png')
+  border-radius: 10px
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3rem
+  overflow: hidden 
+  @media only screen and (max-width: 767px)
+    margin-inline: -1.5rem
+
+
+
+//TEMA2
+
+.bg9
+  background-color: #EFFAFF
+
+
+.acordion__accion__btn--a
+  background-color: #DF1718
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azul
+  background-color: #F0E6E6
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFFBEB
+.acordion__accion__btn--a i, .acordion__accion__btn--b i 
+  color: white
+.acordion.activo .acordion__activo .acordion__accion__btn--a
+  background-color: #586C16
