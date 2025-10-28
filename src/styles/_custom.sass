@@ -65,11 +65,11 @@ figcaption
   margin: auto
 
 
-.titulo-sexto.color-secundario 
+.titulo-sexto
     margin-bottom: 24px
     border-left: 10px solid
     padding: 5px 0 5px 8px
-    border-left-color: #CCDD63 !important
+    border-left-color: #38B449 !important
 
 .titulo-segundo:after 
   content: ''
@@ -122,6 +122,18 @@ figcaption
     color: black !important
 .linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item__number 
     background-color: #E0F4FF
+@media only screen and (max-width: 767px)
+  .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    padding: 1rem
+  .linea-tiempo-d .tarjeta 
+    border-radius: 5px
+    padding: 0.8rem
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    padding: 0.5rem
+@media only screen and (min-width: 1024px) and (max-width: 1439px)
+  .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    padding: 0.5rem
 
 
 .titulo
@@ -269,13 +281,262 @@ figcaption
 
 
 .acordion__accion__btn--a
-  background-color: #DF1718
-  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+  background-color: #F8CD20
+  //box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
 .acordion .tarjeta--azul
-  background-color: #F0E6E6
+  background-color: #AFE1B6
 .acordion .tarjeta.tarjeta--azul.acordion__activo
-  background-color: #FFFBEB
+  background-color: #EBF8ED
 .acordion__accion__btn--a i, .acordion__accion__btn--b i 
-  color: white
-.acordion.activo .acordion__activo .acordion__accion__btn--a
+  color: black
+//.acordion.activo .acordion__activo .acordion__accion__btn--a
   background-color: #586C16
+
+
+.tarjeta--slyder.b1
+  background-color: #FEEFE9
+.bg10
+  background-color: #38B449
+  width: fit-content
+  margin: auto
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema2/der.png')
+.fa-chevron-left:before 
+    content: url('../assets/curso/tema2/izq.png')
+
+
+.fondo2
+  background: url('../assets/curso/tema2/fondo2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+
+.pasos-a__linea__esquina__linea 
+    border: 3px solid
+    width: 100%
+    position: relative
+    border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #38B449
+.pasos-a.color-primario .pasos-a__circle div 
+    color: #fff
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #38B449
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+    border-top-color: #38B449
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+    border-color: #38B449
+.left
+  text-align: left
+
+
+.imaa
+  width: 110px
+  height: 110px
+.bg11
+  background-color: #E0F4FF
+  border-radius: 20px
+
+
+
+.bg12
+  background-color: #EBF8ED
+  border-radius: 20px
+.mov
+  margin-top: -60px
+  position: absolute
+  @media only screen and (max-width: 767px)
+    display: none
+
+
+.bg13
+  background-color: #01532A
+
+
+.tarjeta-avatar-b .tarjeta 
+  width: 100%
+  margin-left: -16%
+  padding-left: 5%
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin-left: -20%
+    padding-left: 0%
+  @media only screen and (max-width: 767px)
+    margin-left: -20%
+    padding-left: 0%
+.bg14
+  background-color: #EFFAFF
+  border-radius: 5px
+
+
+
+//TEMA3
+
+.bg15
+  background-color: #FEEFE9
+  border-radius: 20px
+  transition: background-color 0.3s ease
+  &:hover
+    background-color: #CCE1D7
+    .imt3
+      filter: hue-rotate(120deg) brightness(0.85) saturate(1.2)
+.imt3
+  transition: filter 0.3s ease
+
+
+.fa-circle
+  color: #F35923
+  font-size: 10px 
+.lista-ul li > i:first-of-type, .lista-ul--separador li > i:first-of-type, .lista-ul--color li > i:first-of-type 
+  .fa-circle
+    position: relative
+    top: 8px
+    margin-right: 7px
+
+
+.bg16
+  background-color: #FABCA7
+
+
+.fa-circle.t3
+  color: #016835
+  font-size: 10px 
+
+
+.bg17
+  background-color: #EBF8ED
+
+
+.tabs-a.color-primario .tabs-a__tab__selected
+    background-color: #FFEBEB
+    color: black
+.tabs-a.color-primario .tabs-a__tab__selected:before 
+    background-color:#FFEBEB
+.tabs-a__tab:last-child 
+    background-color: #38B449
+    color: black
+
+
+.tabs-c.color-primario .tabs-c__tab--active 
+  background-color: white
+  font-weight: 900
+.tabs-c__tab 
+  background-color: white
+  border-bottom: 6px solid #E8E8E8
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #38B449 !important
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #38B449
+.tabs-c__tab--active 
+  border-bottom: 6px solid !important
+.tabs-c__header 
+  margin-bottom: -7px
+.tabs-c__tab:after 
+  width: 2.5px;
+  height: 25px;
+  top: 50%;
+  right: -2px;
+  background-color: #E8E8E8
+
+
+
+//TEMA4
+
+.bg18
+  background-color: #EBF8ED
+  border-radius: 15px
+
+
+
+//TEMA5
+
+.bg19
+  background-color: #FCDED3
+  border-radius: 14px
+
+
+.fondo3
+  background: url('../assets/curso/tema5/fondo3.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+
+
+//TEMA6
+
+.bgw
+  background-color: white
+  width: fit-content
+  margin: auto
+
+
+.bg20
+  background: url('../assets/curso/tema6/fondo4.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-image: url('../assets/curso/tema6/fondo5.png')
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+    .imt6
+      filter: brightness(0.6) sepia(1) hue-rotate(80deg) saturate(4)
+      transition: filter 0.3s ease
+
+
+.bg21
+  background-color: #FEEFE9
+  border-radius: 10px
+
+
+@media (min-width: 1200px) 
+  .mod  
+    .col-xl-3 
+        flex: 0 0 auto
+        width: 45%
+@media (min-width: 1200px) 
+  .mod
+    .col-xl-9 
+        flex: 0 0 auto
+        width: 55%
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .mod
+    .col-sm-6 
+        flex: 0 0 auto
+        width: 70%
+.color-acento-botones
+  .tabs-a__tab
+    padding: 15px 15px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.3
+    min-height: 60px 
+    @media (max-width: 992px)
+      padding: 12px 15px
+      font-size: 16px
+      min-height: 50px
+    @media (max-width: 576px)
+      padding: 10px 15px
+      font-size: 16px
+      min-height: 45px
+      line-height: 1.2
