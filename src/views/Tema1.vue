@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Identificación y clasificación de Indicadores de Gestión Energética
+      h1 Identificación y clasificación de Indicadores de Gestión Energética (IDEs).
       
 
     .row.justify-content-center.align-items-center.mb-5
@@ -171,7 +171,7 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-0
               i.fas.fa-bolt
-              p.mb-0 Ejemplos: kilovatio - hora por tonelada de producto fabricado (kWh / ton), BTU por pie cuadrado de espacio de oficina (BTU / ft²), litros de combustible por kilómetro recorrido (L / km), kilovatio - hora por empleado a tiempo completo (kWh / FTE).
+              p.mb-0 #[b Ejemplos:] kilovatio - hora por tonelada de producto fabricado (kWh / ton), BTU por pie cuadrado de espacio de oficina (BTU / ft²), litros de combustible por kilómetro recorrido (L / km), kilovatio - hora por empleado a tiempo completo (kWh / FTE).
       .col-lg-6.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg6.p-lg-5.p-4.h-100
           .row.justify-content-center.align-items-center.mb-4
@@ -183,7 +183,7 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-0
               i.fas.fa-bolt
-              p.mb-0 Ejemplos: kilogramos de vapor por kilogramo de producto calentado (kg vapor / kg producto), metros cúbicos de gas natural por unidad de vidrio fabricado (m³ / unidad), kilovatio - hora por unidad ensamblada.
+              p.mb-0 #[b Ejemplos:] kilogramos de vapor por kilogramo de producto calentado (kg vapor / kg producto), metros cúbicos de gas natural por unidad de vidrio fabricado (m³ / unidad), kilovatio - hora por unidad ensamblada.
 
 
     h4.mb-5 Aplicaciones comunes: 
@@ -255,15 +255,15 @@
             p.mb-0 Evaluación del desempeño de equipos individuales de alto consumo: motores, bombas, compresores, calderas, sistemas HVAC #[em (Heating, Ventilation, and Air Conditioning)] y sistemas de iluminación.
           li.d-flex
             .lista-ol--cuadro__vineta
-              span.text-black 1
+              span.text-black 2
             p.mb-0 Identificación de equipos ineficientes que podrían ser candidatos para optimización, mantenimiento avanzado o reemplazo.
           li.d-flex
             .lista-ol--cuadro__vineta
-              span.text-black 1
+              span.text-black 3
             p.mb-0 Seguimiento del mantenimiento y la degradación del rendimiento de los equipos a lo largo del tiempo.
           li.d-flex
             .lista-ol--cuadro__vineta
-              span.text-black 1
+              span.text-black 4
             p.mb-0 Verificación del cumplimiento de las especificaciones de eficiencia de los equipos según fabricantes o normativas.
       .col-lg-7
         .bg8.p-4
@@ -384,7 +384,7 @@
                 p.mb-0 Comunicar el desempeño energético general en informes de sostenibilidad, reportes anuales o a juntas directivas.
               li.d-flex.mb-4
                 i.fas.fa-bolt
-                p.mb-0 Realizar comparaciones de alto nivel (benchmarking) con otras organizaciones del sector o con promedios de la industria.
+                p.mb-0 Realizar comparaciones de alto nivel (#[em benchmarking]) con otras organizaciones del sector o con promedios de la industria.
               li.d-flex.mb-0
                 i.fas.fa-bolt
                 p.mb-0 Servir como punto de partida para identificar áreas que requieren un análisis más detallado a nivel de proceso o equipo.

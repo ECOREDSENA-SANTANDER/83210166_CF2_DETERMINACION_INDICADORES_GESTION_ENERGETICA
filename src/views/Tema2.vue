@@ -228,19 +228,19 @@
         ul.lista-ul.lista-ol--separador.mb-lg-0.mb-4
           li.d-flex.mb-2
             i.fas.fa-bolt
-            p.mb-0 Producción o actividad: unidades producidas, servicios prestados, metros cuadrados ocupados.
+            p.mb-0 #[b Producción o actividad:] unidades producidas, servicios prestados, metros cuadrados ocupados.
           li.d-flex.mb-2
             i.fas.fa-bolt
-            p.mb-0 Clima: grados día de calefacción / refrigeración, temperatura y humedad.
+            p.mb-0 #[b Clima:] grados día de calefacción / refrigeración, temperatura y humedad.
           li.d-flex.mb-2
             i.fas.fa-bolt
-            p.mb-0 Horas de operación: turnos o tiempo de funcionamiento de la planta.
+            p.mb-0 #[b Horas de operación:] turnos o tiempo de funcionamiento de la planta.
           li.d-flex.mb-2
             i.fas.fa-bolt
-            p.mb-0 Condiciones del proceso: temperatura, presión, caudal.
+            p.mb-0 #[b Condiciones del proceso:] temperatura, presión, caudal.
           li.d-flex.mb-2
             i.fas.fa-bolt
-            p.mb-0 Ocupación: número de personas en un edificio.
+            p.mb-0 #[b Ocupación:] número de personas en un edificio.
       .col-lg-5.col-md-9.col-10
         img(src='@/assets/curso/tema2/17.png', alt='', data-aos="fade-right")
 

@@ -31,7 +31,7 @@
         .bg20.p-4.h-100
           .row.justify-content-center
             .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema3/2.svg', alt='')
+              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/6.svg', alt='')
             .bgw.p-1.mb-4
               h4.mb-0.ps-2.pe-2 Resultados energéticos
             p.mb-0 Presentación de los IDEs, comparación con la LBE y evolución temporal del consumo.
@@ -39,7 +39,7 @@
         .bg20.p-4.h-100
           .row.justify-content-center
             .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema3/3.svg', alt='')
+              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/7.svg', alt='')
             .bgw.p-1.mb-4
               h4.mb-0.ps-2.pe-2 Análisis de desempeño
             p.mb-0 Interpretación de resultados, identificación de variaciones significativas y evaluación del cumplimiento de metas.
@@ -47,7 +47,7 @@
         .bg20.p-4.h-100
           .row.justify-content-center
             .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema3/4.svg', alt='')
+              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/8.svg', alt='')
             .bgw.p-1.mb-4
               h4.mb-0.ps-2.pe-2 Propuestas de optimización
             p.mb-0 Acciones técnicas y de gestión dirigidas a mejorar la eficiencia energética y reducir el impacto ambiental.
@@ -55,7 +55,7 @@
         .bg20.p-4.h-100
           .row.justify-content-center
             .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema3/5.svg', alt='')
+              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/9.svg', alt='')
             .bgw.p-1.mb-4
               h4.mb-0.ps-2.pe-2.text-center Conclusiones y plan de seguimiento
             p.mb-0 Resumen de logros alcanzados y pasos a seguir para garantizar la mejora continua.

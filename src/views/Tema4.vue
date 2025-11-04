@@ -160,7 +160,7 @@
             p.mb-0 #[b Viabilidad técnica:] ¿Es factible la implementación con la tecnología y el personal existentes?
           li.d-flex.mb-2
             i.fas.fa-bolt
-            p.mb-0 #[b Período de recuperación (payback):] ¿En cuánto tiempo se recupera la inversión? (menor payback = mayor prioridad).
+            p.mb-0 #[b Período de recuperación (#[em payback]):] ¿En cuánto tiempo se recupera la inversión? (menor #[em payback] = mayor prioridad).
           li.d-flex.mb-2
             i.fas.fa-bolt
             p.mb-0 #[b Reducción de emisiones:] ¿Cuánto contribuye a los objetivos ambientales?
