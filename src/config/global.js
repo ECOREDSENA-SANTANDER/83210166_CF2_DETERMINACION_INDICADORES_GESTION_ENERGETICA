@@ -265,9 +265,21 @@ export default {
   referencias: [
     {
       referencia:
+        'AEQ Energía. (2020). Comportamiento del consumo eléctrico durante el COVID-19. AEQ Energía.',
+      link:
+        'https://www.aeqenergia.com/blog/comportamiento-del-consumo-electrico-durante-el-covid-19/',
+    },
+    {
+      referencia:
         'Banco Mundial. (2015). Nueva edición de Little Green Data Book pinta un panorama inquietante de la contaminación. Banco Mundial.',
       link:
         'https://documents1.worldbank.org/curated/en/939511638965387077/pdf/New-Little-Green-Data-Book-Paints-Striking-Picture-of-Pollution.pdf',
+    },
+    {
+      referencia:
+        "Fajardo López, Y., & Crespo Sánchez, G. (2018). Energy management system implementation in Cienfuegos' Facility General Contractor Company [Tesis de maestría, Universidad de Cienfuegos]. ResearchGate.",
+      link:
+        'https://www.researchgate.net/figure/Comportamiento-del-consumo-mensual-y-su-tendencia-durante-el-ano-2016_fig4_351618193',
     },
     {
       referencia:
@@ -282,11 +294,6 @@ export default {
     },
     {
       referencia:
-        'Resolución 70/1 de 2015 (Asamblea General de las Naciones Unidas). Por la cual se aprueba la Agenda 2023 para el Desarrollo Sostenible. 25 de septiembre  de 2015.',
-      link: 'https://unctad.org/system/files/official-document/ares70d1_es.pdf',
-    },
-    {
-      referencia:
         'NQA. (s. f.). ISO 50001:2018. Guía de implantación del sistema de gestión de la energía. NQA.',
       link:
         'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-50001-Guia-de-implantacion.pdf',
@@ -295,6 +302,17 @@ export default {
       referencia:
         'Pinzón, J. D., Corredor, A., Hernández, J. A., & Trujillo, C. L. (2014). Implementación de indicadores energéticos en centros educativos: Caso de estudio edificio Alejandro Suárez Copete, Universidad Distrital Francisco José de Caldas. Revista Escuela de Administración de Negocios, (77), 186–200.',
       link: 'https://www.redalyc.org/articulo.oa?id=20633274013',
+    },
+    {
+      referencia:
+        'Resolución 70/1 de 2015 (Asamblea General de las Naciones Unidas). (2015, septiembre 25). Por la cual se aprueba la Agenda 2023 para el Desarrollo Sostenible.',
+      link: 'https://unctad.org/system/files/official-document/ares70d1_es.pdf',
+    },
+    {
+      referencia:
+        'Tecno Soluciones. (s. f.). Matriz de Eisenhower o Matriz de Priorización.',
+      link:
+        'https://tecnosoluciones.com/matriz-de-eisenhower-o-matriz-de-priorizacion/',
     },
     {
       referencia:
