@@ -182,12 +182,12 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
+        .titulo-sexto.mb-4
+          h5 Figura 5. 
+          | Matriz de priorización
         .bg18.p-4.mb-2
-          .titulo-sexto.mb-4
-            h5 Figura 5. 
-            | Matriz de priorización
-          img.mb-2(src='@/assets/curso/tema4/12.svg', alt='Matriz de Eisenhower con 4 cuadrantes: Hacer, Delegar, Planear y Eliminar.')
-        figcaption.mb-0 #[b Fuente:] https://tecnosoluciones.com/matriz-de-eisenhower-o-matriz-de-priorizacion/
+          img.mb-2.img-t.img-a(src='@/assets/curso/tema4/12.svg', alt='Matriz de Eisenhower con 4 cuadrantes: Hacer, Delegar, Planear y Eliminar.')
+        figcaption.mb-0 #[b Fuente:] Tecno Soluciones (s. f.).
 
 
     .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-right")
@@ -197,8 +197,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.mx-lg-4
-              h4.mb-3 Eficiencia Energética, Reducir el consumo, para complementar el tema abordado
-              p.mb-0 Se invita a explorar el siguiente video.
+              h4.mb-3 Eficiencia Energética, Reducir el consumo.
+              p.mb-0 Para complementar el tema abordado se invita a explorar el siguiente video.
             .col-sm-auto.pe-lg-5
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=M6eZkijypBo" target="_blank")
                 span Ir al video

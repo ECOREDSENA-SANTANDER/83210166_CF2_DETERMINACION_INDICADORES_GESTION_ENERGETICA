@@ -124,11 +124,7 @@
       h2 2.1 Metodologías para el cálculo de la LBE
 
 
-    p.mb-5 El cálculo de la LBE puede realizarse con modelos simples o mediante análisis estadísticos más avanzados, a continuación, se identifican los modelos simples: 
-
-
-    .titulo-linea.mb-3
-      h3.mb-0.ps-2.pe-2 Modelos simples:
+    p.mb-0 El cálculo de la LBE puede realizarse con modelos simples o mediante análisis estadísticos más avanzados, a continuación, se identifican los modelos simples: 
 
 
     .row.justify-content-center.align-items-stretch.mb-5
@@ -163,7 +159,7 @@
             .col-lg-3
               img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/12.svg', alt='', data-aos="fade-right")
             .col-lg-9
-              h3.mb-0 Propósito: 
+              h3.mb-0 Propósito
           p.mb-0 Establecer la relación matemática entre el consumo energético (variable dependiente) y factores de impacto como producción, clima o tiempo de operación.
       .col-lg-6.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg6.p-lg-5.p-4.h-100
@@ -171,7 +167,7 @@
             .col-lg-3
               img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/12.svg', alt='', data-aos="fade-right")
             .col-lg-9
-              h3.mb-0 Regresión lineal simple:
+              h3.mb-0 Regresión lineal simple
           p.mb-0 Útil cuando una sola variable influye linealmente en el consumo. La ecuación resultante se convierte en la LBE. 
 
 
@@ -282,8 +278,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.mx-lg-4
-              h4.mb-3 Línea Base Energética bajo la norma (ISO 50001) eficiencia energética, para complementar el tema abordado
-              p.mb-0 se invita a explorar el siguiente video.
+              h4.mb-3 Línea Base Energética bajo la norma (ISO 50001) eficiencia energética.
+              p.mb-0 Para complementar el tema abordado se invita a explorar el siguiente video.
             .col-sm-auto.pe-lg-5
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=CS5HenQhLtU" target="_blank")
                 span Ir al video

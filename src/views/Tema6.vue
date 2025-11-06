@@ -26,40 +26,52 @@
     p.mb-5 Un informe técnico bien estructurado debe lograr un equilibrio entre el rigor analítico y la claridad comunicativa. Para tal fin, se recomienda incluir los siguientes apartados:
 
     
-    .row.justify-content.align-items-stretch.mb-5
-      .col-lg-3.col-md-6.mb-lg-0.mb-4
-        .bg20.p-4.h-100
-          .row.justify-content-center
-            .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/6.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        SlyderF(columnas="col-md-6 col-xl-3")
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-2
+              .col-8
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema6/10.svg' alt='AvatarTop')
             .bgw.p-1.mb-4
-              h4.mb-0.ps-2.pe-2 Resultados energéticos
-            p.mb-0 Presentación de los IDEs, comparación con la LBE y evolución temporal del consumo.
-      .col-lg-3.col-md-6.mb-lg-0.mb-4
-        .bg20.p-4.h-100
-          .row.justify-content-center
-            .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/7.svg', alt='')
+              h4.text-center.mb-0.ps-2.pe-2 Resumen ejecutivo
+            p.mb-2.text-center(data-aos="fade-right") Síntesis de los hallazgos, conclusiones y recomendaciones principales.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-2
+              .col-8
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema6/11.svg' alt='AvatarTop')
             .bgw.p-1.mb-4
-              h4.mb-0.ps-2.pe-2 Análisis de desempeño
-            p.mb-0 Interpretación de resultados, identificación de variaciones significativas y evaluación del cumplimiento de metas.
-      .col-lg-3.col-md-6.mb-lg-0.mb-4
-        .bg20.p-4.h-100
-          .row.justify-content-center
-            .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/8.svg', alt='')
+              h4.text-center.mb-0.ps-2.pe-2 Metodología
+            p.mb-2.text-center(data-aos="fade-right") Descripción de los procedimientos de medición, herramientas empleadas y fuentes de datos.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-2
+              .col-8
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema6/6.svg' alt='AvatarTop')
             .bgw.p-1.mb-4
-              h4.mb-0.ps-2.pe-2 Propuestas de optimización
-            p.mb-0 Acciones técnicas y de gestión dirigidas a mejorar la eficiencia energética y reducir el impacto ambiental.
-      .col-lg-3.col-md-6.mb-lg-0.mb-4
-        .bg20.p-4.h-100
-          .row.justify-content-center
-            .col-8
-              img.img-t.img-a.imt6.mb-4(src='@/assets/curso/tema6/9.svg', alt='')
+              h4.text-center.mb-0.ps-2.pe-2 Resultados energéticos
+            p.mb-2.text-center(data-aos="fade-right") Presentación de los IDEs, comparación con la LBE y evolución temporal del consumo.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-2
+              .col-8
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema6/7.svg' alt='AvatarTop')
             .bgw.p-1.mb-4
-              h4.mb-0.ps-2.pe-2.text-center Conclusiones y plan de seguimiento
-            p.mb-0 Resumen de logros alcanzados y pasos a seguir para garantizar la mejora continua.
-    
+              h4.text-center.mb-0.ps-2.pe-2 Análisis de desempeño
+            p.mb-2.text-center(data-aos="fade-right") Interpretación de resultados, identificación de variaciones significativas y evaluación del cumplimiento de metas.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-2
+              .col-8
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema6/8.svg' alt='AvatarTop')
+            .bgw.p-1.mb-4
+              h4.text-center.mb-0.ps-1.pe-1 Propuestas de optimización
+            p.mb-2.text-center(data-aos="fade-right") Acciones técnicas y de gestión dirigidas a mejorar la eficiencia energética y reducir el impacto ambiental.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-2
+              .col-8
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema6/9.svg' alt='AvatarTop')
+            .bgw.p-1.mb-4
+              h4.text-center.mb-0.ps-1.pe-1 Conclusiones y plan de seguimiento
+            p.mb-2.text-center(data-aos="fade-right") Resumen de logros alcanzados y pasos a seguir para garantizar la mejora continua.
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -168,16 +180,16 @@
                 ul.lista-ul.mb-0
                   li.d-flex.mb-2
                     i.fas.fa-bolt
-                    p.mb-0 #[b Priorización de estrategias según su impacto técnico, económico y ambiental.]
+                    p.mb-0 Priorización de estrategias según su impacto técnico, económico y ambiental.
                   li.d-flex.mb-2
                     i.fas.fa-bolt
-                    p.mb-0 #[b Definición de próximos pasos concretos para su implementación.]
+                    p.mb-0 Definición de próximos pasos concretos para su implementación.
                   li.d-flex.mb-2
                     i.fas.fa-bolt
-                    p.mb-0 #[b Énfasis en el monitoreo continuo y la actualización periódica de la LBE.]
+                    p.mb-0 Énfasis en el monitoreo continuo y la actualización periódica de la LBE.
                   li.d-flex.mb-0
                     i.fas.fa-bolt
-                    p.mb-0 #[b Sugerencia de frecuencia para futuras revisiones del informe y seguimiento de indicadores.]
+                    p.mb-0 Sugerencia de frecuencia para futuras revisiones del informe y seguimiento de indicadores.
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema6/5.png', alt='')
 

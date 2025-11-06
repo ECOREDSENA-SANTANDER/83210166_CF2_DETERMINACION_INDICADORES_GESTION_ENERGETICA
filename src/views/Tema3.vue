@@ -8,13 +8,12 @@
       h1 Cálculo e interpretación de Indicadores de Desempeño Energético
 
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
-        p.mb-4 Una vez comprendidos los distintos tipos de Indicadores de Desempeño Energético (IDEs) y establecida la Línea Base Energética (LBE), el siguiente paso crítico es la implementación práctica, es decir, el cálculo real de estos indicadores y, lo más relevante, su correcta aplicación. 
-        .bg9.p-4.mb-lg-0.mb-4
-          p.mb-1 El cálculo de un IDE consiste en una operación matemática que relaciona el consumo de energía con las variables de impacto relevantes. La precisión de este cálculo depende directamente de la calidad y disponibilidad de los datos utilizados.
-      .col-lg-6.col-md-9.col-10
-        img(src='@/assets/curso/tema3/1.png', alt='')
+    .bg166.p-0.mb-5
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-6.p-4
+          p.mb-0.mx-lg-4.mx-2 Una vez comprendidos los distintos tipos de Indicadores de Desempeño Energético (IDEs) y establecida la Línea Base Energética (LBE), el siguiente paso crítico es la implementación práctica, es decir, el cálculo real de estos indicadores y, lo más relevante, su correcta aplicación. El cálculo de un IDE consiste en una operación matemática que relaciona el consumo de energía con las variables de impacto relevantes. La precisión de este cálculo depende directamente de la calidad y disponibilidad de los datos utilizados.
+        .col-lg-6.d-none.d-lg-block
+          img(src='@/assets/curso/tema3/1.png', alt='')
 
 
     .titulo.mb-5.mt-lg-3(data-aos="fade-right")
@@ -144,8 +143,7 @@
           | Ejemplo gráfico de tendencia de mejora y/o deterioro
         .bg17.p-4.mb-2
           img.img-t.img-a(src='@/assets/curso/tema3/9.svg', alt='La gráfica representa la tendencia de consumo en kilovatio hora durante un año convencional, en este caso para el año 2016.')
-        figcaption Fuente: https://www.researchgate.net/figure/Comportamiento-del-consumo-mensual-y-su-tendencia-durante-el-ano-2016_fig4_351618193
-          
+        figcaption #[b Fuente:] Fajardo López, Crespo Sánchez, (2018).
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -162,7 +160,7 @@
                       h5 Figura 4. 
                       | Ejemplo gráfico de tendencia estacional
                     img.mb-2(src='@/assets/curso/tema3/10.svg', alt='Gráfico comparativo de la demanda real y la demanda estacional de energía en marzo de 2020')
-                    figcaption.mb-0 #[b Fuente:] https://www.aeqenergia.com/blog/comportamiento-del-consumo-electrico-durante-el-covid-19/ 
+                    figcaption.mb-0 #[b Fuente:] AEQ Energía, (2020).
           .tarjeta.bg17.p-lg-5.p-4(titulo="Variabilidad")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
@@ -208,9 +206,6 @@
     .titulo.mb-5.mt-lg-3(data-aos="fade-right")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Detección de áreas de bajo rendimiento o potencial de mejora
-
-
-    p.mb-5 La correcta interpretación de los Indicadores de Desempeño Energético (IDEs) es esencial para transformar los datos en decisiones concretas. No se trata solo de medir el consumo energético, sino de entender el contexto operativo, identificar oportunidades de mejora y actuar de forma estratégica para optimizar la eficiencia. A continuación, se presentan los principales enfoques para interpretar los IDEs:
 
 
     TabsC.color-primario.mb-5(data-aos="fade-right")
@@ -259,8 +254,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.mx-lg-4
-              h4.mb-3 Cálculo Línea Base Consumo Energético, para complementar el tema abordado
-              p.mb-0 Se invita a explorar el siguiente video.
+              h4.mb-3 Cálculo Línea Base Consumo Energético.
+              p.mb-0 Para complementar el tema abordado se invita a explorar el siguiente video.
             .col-sm-auto.pe-lg-5
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=M6eZkijypBo" target="_blank")
                 span Ir al video
