@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Identificación y clasificación de Indicadores de Gestión Energética (IDEs).
+      h1 Identificación y clasificación de Indicadores de Gestión Energética (IDEs)
       
 
     .row.justify-content-center.align-items-center.mb-5
