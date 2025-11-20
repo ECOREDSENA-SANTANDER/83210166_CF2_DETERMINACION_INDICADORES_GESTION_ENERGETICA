@@ -8,14 +8,14 @@
       h1 Desarrollo de informes técnicos sobre el rendimiento energético y la optimización
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-2.col-md-2.col-5
-        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema6/1.svg', alt='', data-aos="fade-right")
+        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema6/1.svg')
       .col-lg-10.col-md-10
         p.mb-0 El informe técnico de rendimiento energético constituye un componente esencial del Sistema de Gestión de la Energía (SGEn), ya que consolida los resultados derivados de las mediciones, evaluaciones y estrategias aplicadas en el marco de la eficiencia energética. Su propósito principal es transformar los datos técnicos en información precisa, clara y comprensible, que facilite la toma de decisiones informadas en los diferentes niveles de la organización.
 
 
-    .bg17
+    .bg17(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/tema6/2.png', alt='')
@@ -73,7 +73,7 @@
             p.mb-2.text-center(data-aos="fade-right") Resumen de logros alcanzados y pasos a seguir para garantizar la mejora continua.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         p.mb-4 La comunicación de resultados debe adaptarse al perfil del público destinatario. Los directivos requieren información estratégica y de impacto económico; el personal operativo, datos prácticos sobre desempeño, mantenimiento y control; mientras que las partes interesadas externas necesitan evidencias relacionadas con el cumplimiento normativo, ambiental o corporativo.
         .bg2.p-4.mb-4.mb-lg-0
@@ -87,7 +87,7 @@
       h3.mb-0 Estructura recomendada del informe técnico
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-2
         img.d-none.d-lg-block(src='@/assets/curso/tema6/4.png', alt='')
       .col-lg-10
@@ -129,7 +129,7 @@
                   p.mb-0 Anexos (opcional).
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-9.te61
         TabsA.color-acento-botones.mod
           .tarjeta.bg17.p-4(titulo="Presentación de resultados")
