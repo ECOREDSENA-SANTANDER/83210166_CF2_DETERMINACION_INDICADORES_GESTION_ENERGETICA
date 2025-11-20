@@ -8,7 +8,7 @@
       h1 Establecimiento de Líneas Base Energéticas (LBE) y variables de seguimiento
     
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
         p.mb-4 Una vez comprendidos los diversos tipos de Indicadores de Desempeño Energético (IDEs) y su propósito, el siguiente paso fundamental en la gestión energética es establecer un punto de referencia sólido contra el cual medir el progreso. En este contexto surge la Línea Base Energética (LBE), una herramienta indispensable para evaluar la mejora continua y justificar las inversiones en eficiencia. Asimismo, se definen las variables de seguimiento necesarias para el cálculo y ajuste de los IDEs
         .bg9.p-4
@@ -22,11 +22,11 @@
       h3.mb-0 Propósito fundamental de la LBE
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.col-md-5.col-8.mb-lg-0.mb-4
         img(src='@/assets/curso/tema2/2.png', alt='')
       .col-lg-9
-        AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-left")
+        AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0
           .row.justify-content-center.align-items.p-0(titulo="Cuantificar la mejora")
             .col-lg-11.mb-0
               p.mb-0.mx-lg-3 Permite determinar si las iniciativas de eficiencia energética alcanzan los ahorros esperados. Sin una LBE, resulta imposible evaluar el progreso real.
@@ -49,40 +49,40 @@
       h3.mb-0 Selección del período y los datos para el establecimiento de la LBE
 
 
-    p.mb-5 La representatividad y la calidad de los datos son factores críticos para que la LBE sea confiable, a continuación, se describen los siguientes criterios para la selección del período:
+    p.mb-5(data-aos="fade-left") La representatividad y la calidad de los datos son factores críticos para que la LBE sea confiable, a continuación, se describen los siguientes criterios para la selección del período:
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         SlyderF(columnas="col-lg-4 col-md-6 col-xl-4")
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-2
               .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
             .bg10.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Representatividad
-            p.mb-2.text-center(data-aos="fade-right") Debe reflejar el consumo energético típico, abarcando un ciclo completo de operaciones (por ejemplo, un año si existe estacionalidad). Se excluyen periodos atípicos como huelgas, cierres prolongados o picos de producción excepcionales.
+            p.mb-2.text-center Debe reflejar el consumo energético típico, abarcando un ciclo completo de operaciones (por ejemplo, un año si existe estacionalidad). Se excluyen periodos atípicos como huelgas, cierres prolongados o picos de producción excepcionales.
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-2
               .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
             .bg10.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Disponibilidad de datos
-            p.mb-2.text-center(data-aos="fade-right") Se selecciona un período con información completa y confiable sobre consumo energético y variables relevantes (producción, clima, horas de operación, entre otras).
+            p.mb-2.text-center Se selecciona un período con información completa y confiable sobre consumo energético y variables relevantes (producción, clima, horas de operación, entre otras).
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-2
               .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
             .bg10.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Longitud adecuada
-            p.mb-2.text-center(data-aos="fade-right") Se recomienda un período de 12 meses, aunque puede ajustarse según la naturaleza del proceso.
+            p.mb-2.text-center Se recomienda un período de 12 meses, aunque puede ajustarse según la naturaleza del proceso.
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-2
               .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
             .bg10.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Cercanía en el tiempo
-            p.mb-2.text-center(data-aos="fade-right") Conviene que el período sea reciente, reflejando condiciones operativas actuales.
+            p.mb-2.text-center Conviene que el período sea reciente, reflejando condiciones operativas actuales.
 
     
     .titulo.mb-5.mt-lg-3(data-aos="fade-right")
@@ -90,7 +90,7 @@
       h3.mb-0 Recopilación y normalización de datos
     
     
-    .row.fondo2.align-items-center.p-0.mb-0(data-aos="fade-down")
+    .row.fondo2.align-items-center.p-0.mb-0(data-aos="fade-left")
       .col-lg-12.px-lg-5.px-4.mb-0
 
         .row.justify-content-center.align-items-center.mb-0
@@ -124,10 +124,10 @@
       h2 2.1 Metodologías para el cálculo de la LBE
 
 
-    p.mb-0 El cálculo de la LBE puede realizarse con modelos simples o mediante análisis estadísticos más avanzados, a continuación, se identifican los modelos simples: 
+    p.mb-0(data-aos="fade-left") El cálculo de la LBE puede realizarse con modelos simples o mediante análisis estadísticos más avanzados, a continuación, se identifican los modelos simples: 
 
 
-    .row.justify-content-center.align-items-stretch.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
       .col-md-6.col-lg-4
         .tarjeta-avatar
           img.imaa.my-4(src='@/assets/curso/tema2/10.svg' alt='')
@@ -148,7 +148,7 @@
               p.mb-4 #[b Índice de rendimiento:] uso de un IDE relativo (ejemplo: kWh / unidad producida) cuando la relación entre energía y actividad es constante.
 
 
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-left")
       h3.mb-0.ps-2.pe-2 Análisis de regresión básico
 
 
@@ -216,11 +216,11 @@
       h3.mb-0 Establecimiento de variables de seguimiento
 
     
-    p.mb-5 El éxito de la LBE y de los IDEs depende de la correcta selección de variables de seguimiento, a continuación, se describen las siguientes variables. 
+    p.mb-5(data-aos="fade-left") El éxito de la LBE y de los IDEs depende de la correcta selección de variables de seguimiento, a continuación, se describen las siguientes variables. 
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         ul.lista-ul.lista-ol--separador.mb-lg-0.mb-4
           li.d-flex.mb-2
             i.fas.fa-bolt
@@ -241,7 +241,7 @@
         img(src='@/assets/curso/tema2/17.png', alt='', data-aos="fade-right")
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .tarjeta-avatar-b.mb-0
           .tarjeta-avatar-b__img
@@ -253,7 +253,7 @@
               p.mb-0 #[b b) Métodos:] lecturas manuales, sistemas automáticos, integración con SCADA #[em (Supervisory Control and Data Acquisition)]  o BMS #[em (Building Management System).]
 
 
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-left")
       h3.mb-0.ps-2.pe-2 Integración con los IDEs
 
 
@@ -284,6 +284,7 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=CS5HenQhLtU" target="_blank")
                 span Ir al video
                 i.fas.fa-file-video
+                
 </template>
 
 <script>

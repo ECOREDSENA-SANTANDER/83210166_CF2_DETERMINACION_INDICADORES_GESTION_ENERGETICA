@@ -8,7 +8,7 @@
       h1 Estrategias de optimización de costos e impacto energético
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7
         p.mb-lg-0.mb-4 Una vez medido el consumo, establecidas las líneas base e interpretado el desempeño energético a través de los IDEs, el siguiente paso crítico es la acción. Este tema aborda cómo transformar el conocimiento en estrategias de optimización, con el fin de alcanzar eficiencia técnica, reducir costos operativos y minimizar el impacto ambiental. La optimización energética es un ciclo continuo basado en el análisis de los IDEs y en la búsqueda permanente de mejora.
       .col-lg-5.col-md-9.col-10
@@ -20,7 +20,7 @@
       h3.mb-0 Formulación y propuesta de estrategias de optimización
 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/2.png', alt='')
       .col-lg-7
@@ -58,7 +58,7 @@
       h3.mb-0 Estrategias de reducción del consumo
 
 
-    TabsC.color-primario.mb-5(data-aos="fade-right")
+    TabsC.color-primario.mb-5(data-aos="fade-left")
       .py-3.py-md-4.bg9.px-3(titulo="Mejoras operacionales y de mantenimiento")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
@@ -114,7 +114,7 @@
       h3.mb-0 Evaluación del potencial de ahorro
 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7
         ul.lista-ul.mb-0
           li.d-flex.mb-2
@@ -141,10 +141,10 @@
       h3.mb-0 Priorización de estrategias
 
     
-    p.mb-5 Las estrategias se priorizan con base en impacto, costos, viabilidad técnica, recuperación de inversión, reducción de emisiones, riesgos y alineación con los objetivos estratégicos. Una matriz de priorización facilita la toma de decisiones. Se presentan los siguientes criterios de priorización:
+    p.mb-5(data-aos="fade-left") Las estrategias se priorizan con base en impacto, costos, viabilidad técnica, recuperación de inversión, reducción de emisiones, riesgos y alineación con los objetivos estratégicos. Una matriz de priorización facilita la toma de decisiones. Se presentan los siguientes criterios de priorización:
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema4/10.svg', alt='')
       .col-lg-8
@@ -172,7 +172,7 @@
             p.mb-0 #[b Alineación con objetivos estratégicos:] ¿Cómo apoya la estrategia a los objetivos generales del negocio?
 
 
-    .bg3.p-4.mb-5
+    .bg3.p-4.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1
           img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema4/11.svg', alt='')
@@ -180,7 +180,7 @@
           p.mb-0 Matriz de priorización: a menudo se utiliza una matriz o un #[em ranking], donde cada estrategia es calificada en función de los criterios anteriores para facilitar la decisión. Las estrategias con alto potencial de ahorro y bajo costo de implementación (conocidas como "fruta madura" o #[em low-hanging fruit]) suelen ser las primeras en ser consideradas.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.mb-4
           h5 Figura 5. 
@@ -190,7 +190,7 @@
         figcaption.mb-0 #[b Fuente:] Tecno Soluciones (s. f.).
 
 
-    .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-right")
+    .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img.img-a.img-t.mx-lg-4(src="@/assets/curso/tema1/video.svg")
@@ -200,7 +200,7 @@
               h4.mb-3 Eficiencia Energética, Reducir el consumo.
               p.mb-0 Para complementar el tema abordado se invita a explorar el siguiente video.
             .col-sm-auto.pe-lg-5
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=M6eZkijypBo" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=10nlm87UULs" target="_blank")
                 span Ir al video
                 i.fas.fa-file-video
 

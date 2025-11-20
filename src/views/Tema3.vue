@@ -8,7 +8,7 @@
       h1 Cálculo e interpretación de Indicadores de Desempeño Energético
 
     
-    .bg166.p-0.mb-5
+    .bg166.p-0.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-6.p-4
           p.mb-0.mx-lg-4.mx-2 Una vez comprendidos los distintos tipos de Indicadores de Desempeño Energético (IDEs) y establecida la Línea Base Energética (LBE), el siguiente paso crítico es la implementación práctica, es decir, el cálculo real de estos indicadores y, lo más relevante, su correcta aplicación. El cálculo de un IDE consiste en una operación matemática que relaciona el consumo de energía con las variables de impacto relevantes. La precisión de este cálculo depende directamente de la calidad y disponibilidad de los datos utilizados.
@@ -21,7 +21,7 @@
       h3.mb-0 Principios generales para el cálculo
 
         
-    .row.justify-content.align-items-stretch.mb-5
+    .row.justify-content.align-items-stretch.mb-5(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg15.p-4.h-100
           .row.justify-content-center
@@ -48,7 +48,7 @@
             p.mb-0 #[b Fórmula definida:] emplear la fórmula adecuada según el tipo de IDE que se calcule.
           
      
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-right")
       h3.mb-0.ps-2.pe-2 Ejemplos de cálculo por tipo de IDE:
 
 
@@ -136,7 +136,7 @@
         img.d-none.d-lg-block(src='@/assets/curso/tema3/6.png', alt='')
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.mb-4
           h5 Figura 3. 
@@ -164,7 +164,7 @@
           .tarjeta.bg17.p-lg-5.p-4(titulo="Variabilidad")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
-                h4.mb-4 Estacionalidad
+                h4.mb-4 Variabilidad
                 p.mb-4 La dispersión de los datos alrededor de la LBE.
                 p.mb-4 #[b Identificación de desviaciones significativas:] buscar puntos de datos que se alejen considerablemente de la LBE. Estas desviaciones pueden indicar: 
                 ul.lista-ul.mb-0
@@ -184,7 +184,7 @@
       h3.mb-0 Evaluación del progreso hacia los objetivos energéticos
 
 
-    p.mb-5 Los IDEs son las métricas clave para saber si la organización está en camino de alcanzar sus objetivos y metas energéticas. 
+    p.mb-5(data-aos="fade-left") Los IDEs son las métricas clave para saber si la organización está en camino de alcanzar sus objetivos y metas energéticas. 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -208,7 +208,7 @@
       h3.mb-0 Detección de áreas de bajo rendimiento o potencial de mejora
 
 
-    TabsC.color-primario.mb-5(data-aos="fade-right")
+    TabsC.color-primario.mb-5(data-aos="fade-left")
       .py-3.py-md-4.bg9.px-3(titulo="IDEs elevados (en términos de consumo)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
@@ -244,7 +244,7 @@
                     p.mb-0 #[b Análisis de raíz causa:] cuando un IDE muestra un desempeño deficiente o una desviación, la interpretación debe extenderse a un análisis de raíz causa para entender el "por qué" detrás del número. Esto puede implicar revisar registros de operación, programas de mantenimiento, etc.
 
 
-    p.mb-5 La interpretación efectiva de los IDEs es el puente entre los datos y las acciones. Permite a las organizaciones no solo medir su desempeño, sino también entenderlo, aprender de él y, lo más importante, mejorarlo de manera continua y sistemática. Este proceso es el corazón de la norma ISO 50001 y de una gestión energética exitosa.
+    p.mb-5(data-aos="fade-left") La interpretación efectiva de los IDEs es el puente entre los datos y las acciones. Permite a las organizaciones no solo medir su desempeño, sino también entenderlo, aprender de él y, lo más importante, mejorarlo de manera continua y sistemática. Este proceso es el corazón de la norma ISO 50001 y de una gestión energética exitosa.
 
 
     .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-right")

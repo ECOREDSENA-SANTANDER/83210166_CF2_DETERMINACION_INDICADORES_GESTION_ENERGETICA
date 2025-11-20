@@ -23,10 +23,10 @@
         img.d-none.d-lg-block(src='@/assets/curso/tema1/1.png', alt='')
 
     
-    p.mb-5 El propósito de implementar y monitorear IDEs en un sistema de gestión energética es múltiple:
+    p.mb-5(data-aos="fade-right") El propósito de implementar y monitorear IDEs en un sistema de gestión energética es múltiple:
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         LineaTiempoD.color-secundario.activo
           .row.justify-content-center.align-items-center.mb-0(numero="1" titulo="Medición objetiva del desempeño actual")
@@ -54,13 +54,13 @@
             .col-lg-12
               p.mb-0 Donde los IDEs son requisito fundamental para evidenciar la mejora continua.
       .col-lg-6
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/3.png', alt='', data-aos="fade-right")
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/3.png')
     
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-md-2.col-5
-        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/4.svg', alt='', data-aos="fade-right")
-      .col-lg-11.col-md-10
+      .col-lg-1.col-md-2.col-5(data-aos="fade-right")
+        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/4.svg')
+      .col-lg-11.col-md-10(data-aos="fade-left")
         p.mb-0 Los Indicadores de Desempeño Energético representan herramientas estratégicas que permiten comprender, gestionar y optimizar el uso de la energía. Su aplicación impulsa la eficiencia operativa, reduce costos, minimiza el impacto ambiental y respalda el cumplimiento de estándares internacionales como la ISO 50001.
     
     
@@ -79,30 +79,30 @@
             p.mb-0 La evaluación del desempeño energético no puede basarse en una única métrica universal. La diversidad de operaciones y objetivos dentro de las organizaciones exige la utilización de distintos Indicadores de Desempeño Energético (IDEs), capaces de reflejar múltiples dimensiones del uso y la eficiencia de la energía. Comprender los diferentes tipos de IDEs permite seleccionar aquellos que mejor se ajusten a las necesidades específicas y que proporcionen la información más relevante para la toma de decisiones y el seguimiento del progreso.
     
 
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-right")
       h3.mb-0.ps-2.pe-2 A. IDEs absolutos (consumo total por fuente)
 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         p.mb-4 Los IDEs absolutos cuantifican la cantidad total de energía consumida por una entidad definida (organización, planta, departamento, proceso o equipo) durante un periodo determinado. Se expresan en unidades de energía como kilovatios - hora (kWh), megavatios - hora (MWh), gigajulios (GJ), British Thermal Units (BTU), termias, entre otras.
         .bg3.p-4.mb-0
           h4.mb-4.mt-lg-3 ¿Cómo funcionan? 
           p.mb-lg-3.mb-0 Estos indicadores son los más sencillos de medir, pues suelen obtenerse directamente de las facturas de servicios públicos o de los contadores generales. Ofrecen una visión global del volumen total de energía utilizada, lo que resulta útil para el control presupuestal y la identificación de tendencias de consumo en el tiempo.
       .col-lg-5
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/6.png', alt='', data-aos="fade-right")
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/6.png')
       
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-1.col-md-2.col-5
-        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/7.svg', alt='', data-aos="fade-right")
+        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/7.svg')
       .col-lg-11.col-md-10
         p.mb-0 #[b Limitaciones:] su principal restricción es que no relacionan el consumo energético con el nivel de actividad, producción u otros factores que inciden en el uso de la energía. Así, un incremento en el consumo absoluto puede deberse tanto a un aumento en la producción (lo cual no necesariamente implica ineficiencia) como a un uso ineficiente. De igual forma, una reducción puede estar asociada a mejoras en la eficiencia o a una disminución de la actividad.
     
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.col-md-9.col-10
-        img.mb-lg-0.mb-5(src='@/assets/curso/tema1/8.svg', alt='', data-aos="fade-right")
+        img.mb-lg-0.mb-5(src='@/assets/curso/tema1/8.svg')
       .col-lg-8
         h5.mb-4 Aplicaciones comunes: 
         ul.lista-ul
@@ -124,47 +124,47 @@
     
     
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
-      .col-lg-5.col-md-6.mb-lg-0.mb-4
+      .col-lg-5.col-md-6.mb-4(data-aos="fade-right")
         .bg4.p-3.h-100
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-2
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/9.svg', alt='', data-aos="fade-right")
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/9.svg')
             .col-lg-10
               p.mb-0 El consumo total de electricidad de la fábrica en el último año fue de 12.000 MWh.
-      .col-lg-5.col-md-6.mb-4
+      .col-lg-5.col-md-6.mb-4(data-aos="fade-left")
         .bg4.p-3.h-100
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-2
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/10.svg', alt='', data-aos="fade-right")
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/10.svg')
             .col-lg-10
               p.mb-0 El consumo mensual de gas natural de la caldera central es de 5.000 m³.
     
     
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-right")
       h3.mb-0.ps-2.pe-2 B. IDEs relativos (intensidad energética por unidad de producción, servicio, área, etc.)
     
     
     p.mb-5 Estos IDEs vinculan el consumo de energía con una métrica cuantificable de la actividad, la producción o el servicio proporcionado. Esto permite evaluar la eficiencia con la que se usa la energía para lograr un determinado resultado.
     
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .bg3.p-4.mb-lg-0.mb-4
           h4.mb-4.mt-lg-2 ¿Cómo funcionan? 
           p.mb-lg-2.mb-0 Los IDEs relativos son mucho más informativos para evaluar el desempeño energético que los absolutos, ya que toman en cuenta el "trabajo realizado" o el #[em "output"] generado con la energía consumida. Una disminución en la intensidad energética o el consumo específico generalmente señala una mejora en la eficiencia. La clave para su efectividad radica en la selección de una métrica de actividad o producción que tenga una correlación directa y significativa con el consumo de energía.
       .col-lg-5.col-md-7.col-10
-        img(src='@/assets/curso/tema1/11.png', alt='', data-aos="fade-right")
+        img(src='@/assets/curso/tema1/11.png')
     
     
     h4.mb-5 Subcategorías principales: 
 
     
-    .row.justify-content-center.align-items-stretch.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-3
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/12.svg', alt='', data-aos="fade-right")
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/12.svg')
             .col-lg-9
               h3.mb-0 Intensidad energética
           p.mb-4 Expresa la cantidad de energía consumida por unidad de salida o actividad de una entidad. La unidad en el denominador puede ser diversa y aplicable a distintos sectores. 
@@ -176,7 +176,7 @@
         .bg6.p-lg-5.p-4.h-100
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-3
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/12.svg', alt='', data-aos="fade-right")
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/12.svg')
             .col-lg-9
               h3.mb-0 Consumo específico
           p.mb-4 Se enfoca en la cantidad de energía requerida para producir una unidad específica y bien definida de producto o servicio. A menudo se usa para procesos muy particulares. 
@@ -189,7 +189,7 @@
     h4.mb-5 Aplicaciones comunes: 
     
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.mb-lg-0.mb-4
         ol.lista-ol--cuadro.lista-ol--separador
           li.d-flex
@@ -209,7 +209,7 @@
               span.text-black 4
             p.mb-0 Establecimiento de objetivos de eficiencia energética por unidad de producción o servicio.
       .col-lg-3.col-md-6.col-10
-        img.mb-lg-0.mb-4(src='@/assets/curso/tema1/13.svg', alt='', data-aos="fade-right")
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema1/13.svg')
       .col-lg-4
         .bg7.p-lg-5.p-4
           h5.mb-4 Ejemplos específicos: 
@@ -222,30 +222,30 @@
               p.mb-0 El consumo específico de gas para secado es de 0.5 m³ por kg de material procesado.
 
     
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-right")
       h3.mb-0.ps-2.pe-2 C. IDEs de eficiencia (rendimiento de equipos, sistemas y procesos)
 
 
-    p.mb-5 Estos IDEs miden la eficiencia con la que un equipo o sistema específico transforma la energía de entrada en energía útil de salida. Representan la relación entre el beneficio energético obtenido y la energía total suministrada.
+    p.mb-5(data-aos="fade-left") Estos IDEs miden la eficiencia con la que un equipo o sistema específico transforma la energía de entrada en energía útil de salida. Representan la relación entre el beneficio energético obtenido y la energía total suministrada.
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .bg3.p-4.mb-0
           h4.mb-4.mt-lg-3 ¿Cómo funcionan? 
           p.mb-lg-4.mb-0 Estos indicadores se centran en la eficiencia intrínseca de la maquinaria y de los sistemas de infraestructura. Un rendimiento más alto significa que una mayor proporción de la energía suministrada se convierte en trabajo útil o en el resultado deseado, mientras que una menor proporción se pierde, típicamente en forma de calor. La medición de estos IDEs a menudo requiere instrumentación específica instalada directamente en los equipos.
-      .col-lg-5
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/14.png', alt='', data-aos="fade-right")
+      .col-lg-5(data-aos="fade-left")
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/14.png')
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-md-2.col-5
-        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/7.svg', alt='', data-aos="fade-right")
-      .col-lg-11.col-md-10
+      .col-lg-1.col-md-2.col-5(data-aos="fade-right")
+        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/7.svg')
+      .col-lg-11.col-md-10(data-aos="fade-left")
         p.mb-0 #[b Expresión:] generalmente se expresan como un porcentaje (%) o como un coeficiente adimensional (por ejemplo: Coeficiente de Rendimiento – COP, Relación de Eficiencia Energética Estacional – SEER, Factor de Eficiencia Energética – EER).
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5
         h4.mb-4 Aplicaciones comunes: 
         ol.lista-ol--cuadro.lista-ol--separador
@@ -269,7 +269,7 @@
         .bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.col-md-6.col-10
-              img.mb-lg-0.mb-4(src='@/assets/curso/tema1/15.svg', alt='', data-aos="fade-right")
+              img.mb-lg-0.mb-4(src='@/assets/curso/tema1/15.svg')
             .col-lg-7
               h5.mb-4 Ejemplos específicos: 
               ul.lista-ul.mb-0
@@ -284,30 +284,30 @@
                   p.mb-0 Las nuevas luminarias LED presentan una eficacia luminosa de 120 lúmenes por vatio (lm / W), superando a las anteriores de 80 lm / W.
     
     
-    .titulo-linea.mb-5
+    .titulo-linea.mb-5(data-aos="fade-right")
       h3.mb-0.ps-2.pe-2 D. IDEs normalizados (ajustados por variables externas como temperatura, ocupación)
     
     
-    p.mb-5 Los IDEs normalizados son IDEs (generalmente relativos o de rendimiento) que se ajustan matemáticamente para compensar la influencia de variables externas significativas que afectan el consumo energético, pero que la organización no controla directamente. Estas variables pueden incluir condiciones ambientales (temperatura exterior, humedad), niveles de ocupación, horas de operación, cambios en la mezcla de productos, entre otras.
+    p.mb-5(data-aos="fade-right") Los IDEs normalizados son IDEs (generalmente relativos o de rendimiento) que se ajustan matemáticamente para compensar la influencia de variables externas significativas que afectan el consumo energético, pero que la organización no controla directamente. Estas variables pueden incluir condiciones ambientales (temperatura exterior, humedad), niveles de ocupación, horas de operación, cambios en la mezcla de productos, entre otras.
     
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .bg3.p-4.mb-0
           h4.mb-4.mt-lg-3 ¿Cómo funcionan? 
           p.mb-lg-4.mb-0 La normalización permite una comparación mucho más precisa y justa del desempeño energético a lo largo del tiempo, ya que elimina el "ruido" o las fluctuaciones causadas por condiciones ajenas a la eficiencia operativa real. Esto es crucial en sectores donde el consumo energético es altamente sensible a factores externos, como edificios (temperatura ambiente) o industrias con producción variable.
-      .col-lg-5
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/16.png', alt='', data-aos="fade-right")
+      .col-lg-5(data-aos="fade-left")
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/16.png')
     
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-md-2.col-5
-        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/7.svg', alt='', data-aos="fade-right")
-      .col-lg-11.col-md-10
+      .col-lg-1.col-md-2.col-5(data-aos="fade-right")
+        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema1/7.svg')
+      .col-lg-11.col-md-10(data-aos="fade-left")
         p.mb-0 #[b Metodologías de ajuste:] las metodologías pueden variar desde simples ratios o factores de corrección hasta modelos estadísticos más complejos, como el análisis de regresión (simple o múltiple), que establece una relación matemática entre el consumo de energía y las variables de ajuste. 
     
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-7.mb-lg-0.mb-4
         h4.mb-4 Aplicaciones comunes: 
         ol.lista-ol--cuadro.lista-ol--separador
@@ -346,9 +346,9 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-md-9.col-10
-        img.mb-lg-0.mb-4(src='@/assets/curso/tema1/17.png', alt='', data-aos="fade-right")
-      .col-lg-7
+      .col-lg-5.col-md-9.col-10(data-aos="fade-right")
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema1/17.png')
+      .col-lg-7(data-aos="fade-left")
         p.mb-0 La verdadera potencia de los Indicadores de Desempeño Energético (IDEs) se alcanza cuando son seleccionados y aplicados estratégicamente para satisfacer necesidades específicas de evaluación y mejora dentro de una organización. Clasificar los IDEs por su aplicación permite orientar los esfuerzos de medición y análisis hacia los aspectos más relevantes para cumplir los objetivos de gestión energética.
 
 
@@ -357,7 +357,7 @@
       h3.mb-0 Seguimiento del desempeño global de la organización
 
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Propósito" :icono="require('@/assets/curso/tema1/18.svg')")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
@@ -410,7 +410,7 @@
       h3.mb-0 Evaluación de la eficiencia de procesos específicos
 
 
-    TabsB.color-acento-contenido.ta2.mb-5
+    TabsB.color-acento-contenido.ta2.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Propósito" :icono="require('@/assets/curso/tema1/18.svg')")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
@@ -469,7 +469,7 @@
       h3.mb-0 Monitoreo del rendimiento de equipos individuales.
 
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Propósito" :icono="require('@/assets/curso/tema1/18.svg')")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4
@@ -528,7 +528,7 @@
       h3.mb-0 Comparación con líneas base y objetivos
 
 
-    TabsB.color-acento-contenido.ta2.mb-5
+    TabsB.color-acento-contenido.ta2.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Propósito" :icono="require('@/assets/curso/tema1/18.svg')")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-4.col-md-9.col-10.mb-lg-0.mb-4

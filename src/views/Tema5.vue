@@ -18,7 +18,7 @@
             p.mb-0 La gestión energética ha trascendido el ámbito de las buenas prácticas para convertirse en un requisito estratégico esencial en las organizaciones modernas. En la actualidad, su implementación está directamente vinculada con la sostenibilidad ambiental, la competitividad empresarial y el cumplimiento normativo internacional. A través de una gestión adecuada, las empresas no solo reducen sus costos operativos y su huella de carbono, sino que también fortalecen su reputación corporativa y garantizan la continuidad de sus operaciones frente a los cambios regulatorios y de mercado.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         .bg19.p-4.mb-lg-0.mb-4
           p.mb-0 En este contexto, la norma ISO 50001:2018 constituye el marco de referencia internacional para implementar, mantener y mejorar un Sistema de Gestión de la Energía (SGEn). Esta norma se basa en el ciclo de mejora continua PHVA (Planificar, Hacer, Verificar y Actuar), promoviendo un enfoque sistemático que permite identificar oportunidades de ahorro energético, controlar el desempeño, y demostrar resultados verificables.
@@ -78,9 +78,9 @@
             img(src='@/assets/curso/tema5/3.png', alt='')
 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-1.col-md-2.col-5
-        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema5/4.svg', alt='', data-aos="fade-right")
+        img.mb-lg-0.mb-md-0.mb-4(src='@/assets/curso/tema5/4.svg')
       .col-lg-11.col-md-10
         p.mb-0 La ISO 50001:2018 promueve una gestión energética estructurada que integra planificación, control, verificación y comunicación del desempeño energético. La aplicación coherente de sus principios permite a las organizaciones mejorar la eficiencia, reducir costos, disminuir emisiones de CO₂eq y consolidar una cultura de mejora continua alineada con los objetivos globales de sostenibilidad y transición energética.
 
