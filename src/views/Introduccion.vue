@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introduccióng
     
     
     .row.fondo1.align-items-center.p-0.mb-0(data-aos="fade-down")
