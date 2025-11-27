@@ -316,9 +316,9 @@ export default {
     },
     {
       referencia:
-        'Unidad de Planeación Minero Energética (UPME). (2018). Guía para la formulación e implementación de planes de gestión eficiente de la energía en entidades públicas, PGEE-EP. UPME.',
+        'Unidad de Planeación Minero-Energética. (2020). Guía de planes de gestión eficiente de la energía para entidades públicas.',
       link:
-        'https://www1.upme.gov.co/DemandaEnergetica/UPME_Guia_implementacion_PGEE_EE.pdf',
+        'https://docs.upme.gov.co/DemandayEficiencia/Documents/Guia_liviana_PGEE.pdf',
     },
     {
       referencia:
